@@ -1,0 +1,13 @@
+
+
+
+==================================================================
+
+
+You need to generate an XML feed before an error log can be viewed
+
+Please close this window and return to your website adminstration
+
+
+
+==================================================================

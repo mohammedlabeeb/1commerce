@@ -1,0 +1,18 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #ffffff;
+}
+
+#left {
+	width: 404px;
+	height: 423px;
+	padding: 21px 16px;
+	border: 1px solid #000000;
+	margin: 0px 6px 0px 0px;
+	background: #252525;
+}
+
+h1 {
+	margin: 18px 0px 15px 0px
+}

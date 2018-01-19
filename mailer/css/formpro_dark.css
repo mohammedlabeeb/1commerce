@@ -1,0 +1,33 @@
+div.contactformpro_d {
+    background-color:#000;
+    color:#FFF;
+    padding:20px;   
+    font-family: arial, sans-serif;
+}
+div.contactformpro_d td, 
+div.contactformpro_d p, 
+div.contactformpro_d label{
+    font-size:12px;
+    color:#FFF;
+}
+div.contactformpro_d td{
+    padding: 4px;
+}
+div.contactformpro_d input {
+    font-size:12px;
+    color:#000;
+}
+div.contactformpro_d p{
+    margin-bottom:10px;
+}
+div.contactformpro_d h2 {
+    color:#FFF;
+    font-size:18px;
+    line-height:22px;
+    border-bottom:2px solid #FFF;
+    margin-bottom:11px;
+    padding-bottom:4px;
+}
+.required_star {
+	color:#F00;
+}

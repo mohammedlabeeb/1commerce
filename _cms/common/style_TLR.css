@@ -1,0 +1,739 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(/TLR/art/bg-top.jpg) top center repeat-x #1d1d1d;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff9900;
+}
+
+#page {
+	width: 728px;
+	padding: 0px 26px;
+	margin: 0px auto;
+	background: url(/TLR/art/page-bg.jpg) top left no-repeat;
+	min-height: 800px;
+	_height: 800px;
+}
+
+#header {
+	height: 171px;
+	position: relative;
+	width: 753px;
+}
+
+#header a {
+	float: right;
+	display: block;
+	margin: 0px 0px 0px 8px;
+	padding: 0px;
+}
+
+#header a img {
+	width: 38px;
+	height: 37px;
+	border: 1px solid #999999;
+	border-top: 0px;
+}
+
+#logo {
+	width: 214px;
+	height: 133px;
+	padding: 0px;
+	float: left;
+	margin-top: 17px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#buttons {
+	height: 46px;
+	padding: 7px 0px 0px 2px;
+	margin: 0px;
+	list-style: none;
+}
+
+#buttons li {
+	float: left;
+	width: 114px;
+	height: 40px;
+	padding: 0px;
+	margin: 0px 7px 0px 0px;
+}
+
+#buttons li.deal {
+	margin: 0px;
+}
+
+#buttons li a {
+	float: left;
+	display: block;
+	width: 114px;
+	height: 40px;
+	line-height: 40px;
+	background: url(/TLR/art/button-bg.jpg) top left no-repeat;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#buttons li.deal a {
+	color: #ffcf88;
+}
+
+#buttons li a:hover {
+	font-size: 14px;
+}
+
+#content {
+	margin: 7px 0px 0px 0px;
+	padding: 0px;
+	background: url(/TLR/art/content-bg.gif) top left repeat-y;
+	overflow: hidden;
+}
+
+#content div {
+	float: left;
+	padding: 21px 17px;
+}
+
+#content div#left {
+	width: 404px;
+	margin: 0px 6px 0px 0px;
+}
+
+#content div#right {
+	width: 250px;
+}
+
+img.bar-middle {
+	width: 404px;
+	height: 4px;
+}
+
+img.bar-narrow {
+	width: 250px;
+	height: 4px;
+}
+
+#content div div {
+	float: none;
+	width: auto;
+	border: none;
+	background: none;
+	padding: 18px 30px 0px 30px;
+}
+
+#content div#right div {
+	padding: 18px 17px 0px 17px;
+}
+
+#content div div img {
+	padding: 5px 6px;
+	border: 1px solid #ffffff;
+	margin: 0px 0px 10px 0px;
+	background: #000000;
+}
+
+h1 {
+	padding: 0px;
+	margin: 0px 0px 7px 0px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #cccccc;
+}
+
+h2, h2 a {
+	padding: 0px;
+	margin: 0px 0px 5px 0px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ff9900;
+}
+
+.red {
+	color: #F00;
+}
+.orange {
+	color: #ff9900;
+}
+.green {
+	color: #3C0;
+}
+
+a.block {
+	display: block;
+	width: 194px;
+	height: 18px;
+	padding: 46px 12px 7px 6px;
+	border: 1px solid #ffffff;
+	margin: 0px 0px 14px 0px;
+	background: 6px 7px no-repeat #000000;
+	text-align: right;
+	text-decoration: none;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+a.block:hover {
+	color: #ff9900;
+}
+
+#content div div a img {
+	padding: 0px;
+	border: none;
+	margin: 0px 5px 0px 0px;
+	background: none;
+}
+
+#copyright {
+	float: right;
+	height: 33px;
+	line-height: 33px;
+	padding: 0px 10px;
+	border: 1px solid #999999;
+	border-top: 0px;
+	margin: 0px 0px 10px 0px;
+	background: url(/TLR/art/copyright-bg.jpg) top left repeat-x;
+}
+
+#copyright a {
+	font-size: 10px;
+	color: #999999;
+}
+
+.spacer {
+	float: right;
+	width: 20px;
+	height: 1px;
+}
+
+#content div div.small-fire {
+	width: 344px;
+	margin: 15px 0px 0px 0px;
+	padding: 0px;
+	overflow: hidden;
+	_overflow: auto;
+}
+
+#content div div.small-fire div {
+	float: left;
+	width: 224px;
+	padding: 0px;
+}
+
+#content div div .small-fire img {
+	float: left;
+	width: 100px;
+	padding: 4px;
+	border: 1px solid #fffffff;
+	margin: 0px 10px 0px 0px;
+	background: #000000;
+}
+
+#content div div .small-fire a img {
+	background: none;
+	margin-right: 2px;
+	width: 4px;
+	height: 6px;
+}
+
+#content div div .small-fire p {
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+
+#content div div.fire-details {
+	width: 344px;
+	margin: 15px 0px 0px 0px;
+	padding: 0px;
+}
+
+#content div div.fire-details img {
+	float: none;
+	margin: 0px;
+	width: 330px;
+	height: auto;
+}
+
+#content div div.fire-details p {
+	margin: 10px 0px;
+	padding: 0px;
+}
+
+#content div div.fire-details a img, img.bullet, #sitemap a img {
+	padding: 0px;
+	border: none;
+	margin: 0px 5px 0px 0px;
+	background: none;
+	width: 4px;
+	height: 6px; 
+}
+
+#enquiry-form form {
+	width: 344px;
+	overflow: hidden;
+}
+
+#enquiry-form label {
+	float: left;
+	display: block;
+	width: 80px;
+}
+
+#enquiry-form label, input, textarea {
+	margin: 0px 0px 5px 0px;
+}
+
+#enquiry-form input, textarea {
+	float: left;
+	width: 250px;
+	font-size: 11px;
+}
+
+#enquiry-form textarea {
+	height: 100px;
+}
+
+#enquiry-form input#submit, input#reset {
+	width: 46px;
+	height: 24px;
+	margin: 0px;
+}
+
+#enquiry-form input#submit {
+	margin: 0px 10px 0px 80px;
+}
+
+.error {
+	color: #ff0000;
+}
+
+ul#sitemap, #sitemap ul {
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+#sitemap ul {
+	margin: 0px 0px 0px 20px;
+}
+
+#sitemap li {
+	margin: 4px 0px 0px 0px;
+}
+
+p#sample {
+	margin: 15px 0px 0px 0px;
+	color: #888888;
+}
+
+#header .flash-banner {
+	float: right;
+	height: 164px;
+	width: 514px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#header .header-buttons {
+	position: absolute;
+	z-index: 5;
+	top: 1px;
+	right: 24px;
+}
+#header .header-tel {
+	position: absolute;
+	left: 404px;
+	top: 74px;
+	font-size: 12px;
+	font-weight: bold;
+	color:#0C0;
+}
+
+/*---------------------------- Sales Input ---------------------------------------------------*/
+.quantity {
+	float:none;
+	width: 40px;
+	font-size: 11px;
+}
+.addtocart {
+	float:none;
+	width: 40px;
+	height: 20px;
+}
+.viewbasket {
+	float:none;
+	width: 40px;
+	height: 20px;
+}
+.prod-price {
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFF;
+	text-align: left;
+	position: relative;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: px;
+}
+/*---------------------------- pop up Message ---------------------------------------------------*/
+
+#content div#message-container {
+	width:350px;
+	height:121px;
+	background-image:url(/TLR/images/pop-box.png);
+	position:absolute;
+	top:-141px;                             /*height value plus 20px;*/
+	left:50%;
+	z-index:100;
+	margin-left:-175px;                     /*half the width value*/
+	font-family:verdana, sans-serif;
+	font-size:12px;
+	background-repeat: no-repeat;
+}
+#content div #message-container p {
+	text-align:center;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#content div input.message-button {
+	color:#0051E8;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	width: 130px;
+	right: 17px;
+	bottom: 17px;
+	}
+	
+#content div input.message-button2 {
+	color:#0051E8;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	width: 100px;
+	bottom: 17px;
+	left: 17px;
+	}
+	
+#content div #message-container-error {
+	width:350px;
+	height:121px;
+	background-image:url(/TLR/images/pop-box-error.png);
+	position:absolute;
+	top:-141px;                             /*height value plus 20px;*/
+	left:50%;
+	z-index:100;
+	margin-left:-175px;                     /*half the width value*/
+	font-family:verdana, sans-serif;
+	font-size:12px;
+	background-repeat: no-repeat;
+}
+#content div #basketmessage-error {
+	text-align:center;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 110px;
+}
+
+#content div input.message-button-error {
+	color:#0051E8;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	width: 100px;
+	bottom: 20px;
+	left: 171px;
+	}
+/*---------------------------- cart start ---------------------------------------------------*/
+.nopcart {
+  padding: 5px;
+}
+
+.nopheader{
+  padding: 5px;
+}
+
+.nopentry {
+  padding: 5px;
+}
+.nopbutton {
+	color:#0051E8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}
+.noptotal {
+  padding: 5px;
+}
+.checkout-message {
+	margin-bottom: 4px;
+	margin-top: 5px;
+}
+.voucher-checkout {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 8px;
+}
+/*---------------------------- Login Details ------------------------------------------*/
+#login {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+#login input, text{
+	float: none;
+	font-size: 11px;
+}
+#login textarea {
+	float: left;
+	font-size: 11px;
+}
+#login form {
+	width: 700px;
+	overflow: hidden;
+}
+
+#login label {
+	float: left;
+	display: block;
+	width: 90px;
+}
+
+#login label, input, textarea {
+	margin: 0px 0px 5px 0px;
+}
+
+#login textarea {
+	height: 200px;
+	width: 590px;
+}
+
+#login input#submit, input#reset {
+	width: 46px;
+	height: 24px;
+	margin: 0px;
+}
+.login-submit {
+	padding:0;
+	margin:0 0 0 163px;
+	position:relative;
+}
+.login-message {
+	float: left;
+	display: block;
+	width: 250px;
+	margin-left: 18px;
+	font-size: 12px;	
+}
+#header .header-login {
+	position: absolute;
+	left: 616px;
+	top: 143px;
+	font-size: 12px;
+	font-weight: bold;
+	color:#0C0;
+}
+#header .header-logout {
+	position: absolute;
+	left: 616px;
+	top: 143px;
+	font-size: 12px;
+	font-weight: bold;
+	color:#F00;
+}
+#buttons li.login {
+	margin: 0px;
+}
+#buttons li.login a {
+	color: #ffcf88;
+}
+/*---------------------------- Regisration Details ------------------------------------------*/
+#register {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+#register input, text{
+	float: none;
+	font-size: 11px;
+}
+#register textarea {
+	float: left;
+	font-size: 11px;
+}
+#register form {
+	/*width: 700px;*/
+	overflow: hidden;
+}
+
+#register label {
+	float: left;
+	display: block;
+	width: 90px;
+}
+
+#register label, input, textarea {
+	margin: 0px 0px 5px 0px;
+}
+
+#register textarea {
+	height: 200px;
+	width: 590px;
+}
+
+#register input#submit, input#reset {
+	width: 46px;
+	height: 24px;
+	margin-left: 20px;
+}
+.register-submit {
+	padding:0;
+	margin:0 0 0 100px;
+	position:relative;
+}
+
+/*---------------------------- Maintenance ---------------------------------------------------*/
+#maintenance {
+	width: 680px;
+	background: url(/TLR/art/content-bg-flat.gif) top left repeat-y;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+#maintenance input, text{
+	float: none;
+	font-size: 11px;
+}
+#maintenance textarea {
+	float: left;
+	font-size: 11px;
+}
+#maintenance form {
+	width: 700px;
+	overflow: hidden;
+}
+
+#maintenance label {
+	float: left;
+	display: block;
+	width: 80px;
+}
+
+#maintenance label, input, textarea {
+	margin: 0px 0px 5px 0px;
+}
+
+#maintenance textarea {
+	height: 200px;
+	width: 590px;
+}
+
+#maintenance input#submit, input#reset {
+	width: 46px;
+	height: 24px;
+	margin: 0px;
+}
+
+input#submit {
+	margin: 0px 10px 0px 80px;
+}
+
+.product-search {
+	background-color: #CCC;
+}
+/*---------------------------- Product Maintenance ---------------------------------------------------*/
+#product-maintenance {
+	width: 900px;
+	background: url(/TLR/art/content-bg-flat.gif) top left repeat-y;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+.p-display-picture {
+	width: 200px;
+	height: 180px;
+	float: left;
+	margin-left: 85px;
+}
+.p-change-picture {
+	width: 400px;
+	height: 180px;
+	margin-left: 300px;
+}
+.p-amend-textarea {
+	width: 545px;
+	height: 150px;
+	font-size: 11px;
+	margin-left: 83px;
+	margin-top: -10px;
+	
+}
+
+/*---------------------------- Miscelaneous ---------------------------------------------------*/
+.basket-menu {
+	background-image:url(../images/basket-button.png);
+	padding-top: 5px;
+	padding-left: 45px;
+	background-repeat: no-repeat;
+	height: 24px;
+	background-position: 14px 0px;
+	width: 55px;
+	position: absolute;
+	top: 102px;
+	z-index: 5;
+}
+/*----------------------------REGISTRATION FORM -----------------------------------------------*/
+
+#Register .icfut { padding:0 0 10px 0; margin:0; position:relative; width:400px;}
+#Register .icfut .icfval {float:left;  width:95px; padding:0; margin:0; position:relative; font-weight:bold;}
+#Register .icfut .icfval span {padding:0; margin:0; position:relative; float:right; }
+#Register .icfut .icftit { padding:0; margin:0 0 0 100px; position:relative;}
+#Register .icfut .icftit span {
+	padding:0;
+	position:relative;
+	float:left;
+	color:#f00;
+	left:170px;
+
+}
+#Register .icfut .icftit input { width:150px; position:relative; }
+#Register .icfut .icftit select { width:40px; position:relative; font-size:11px }
+#Register .icfut .icftitr { padding:0; margin:0 0 0 130px; position:relative;}
+#Register .icfut .icftitr span {padding:0; margin:0; position:relative; float:right; color:#f00 }
+#Register .icfut .icftitr input { width:173px; position:relative; }
+#Register .icfut .icftitr select { width:150px; position:relative; font-size:11px }
+#Register .icfut .icftita { padding:0; margin:0 0 0 130px; position:relative;}
+#Register .icfut .icftita span {padding:0; margin:0; position:relative; float:right; color:#f00 }
+#Register .icfut .icftita input { width:50px; position:relative; }
+#Register .icfut .icftita a {padding:0 0 0 10px; margin:0; position:relative; color:#000; text-decoration:underline }
+#Register .icfut .icftita a:hover {position:relative; text-decoration:none }
+#Register .icfut .icftita select { position:relative; font-size:11px }
+#Register .icfut .icfvalt {float:left;  width:130px; padding:0; margin:0; position:relative; }
+#Register .icfut .icftitt { padding:0; margin:0 0 0 130px; }
